@@ -1,0 +1,75 @@
+.AddFood{
+    background-color: #fcfbfb;
+    width: 100%;
+    height: 100vh;
+    margin-bottom: 0;
+}
+.add-title{
+    padding: 10px 50px ;
+    background-color: #ebe1e1;
+    margin-top: 0;
+}
+.add-food{
+    margin: 0;
+    width: 100%;
+    padding: 20px 50px ;
+    font-size: 16px;
+}
+p{
+    color: rgb(46, 44, 44);
+    margin-bottom:0px;
+}
+.add-image-container{
+    margin-top: -15px;
+}
+.add-image-container img{
+    width: 120px;
+    cursor: pointer;
+    margin: 10px 0;
+}
+.add-product-name , .add-product-description{
+   color: rgb(70, 66, 66);
+   width: 400px;
+   margin: 0;
+   padding-bottom: 10px;
+   box-sizing: border-box;
+}
+.add-product-name input, .add-product-description textarea{
+    padding: 8px 10px;
+    border: 1px solid gray;
+    margin: 0;
+    width: 90%;
+    margin-bottom: -8px;
+}
+.add-category-price{
+    display: flex;
+    gap: 30px;
+}
+.add-category select, .add-price input{
+    padding: 5px 10px;
+    max-width: 120px;
+}
+button{
+    min-width: 50px;
+    max-width: 120px;
+    border: none;
+    background-color: rgb(27, 27, 27);
+    color: white;
+    cursor: pointer;
+    border-radius: 2px;
+    padding:10px 40px;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+@media (max-width:750px) {
+    .add-title{
+        padding: 10px 20px 0 20px;
+    }
+    .add-food{
+        padding: 20px;
+    }
+    .add-product-name , .add-product-description{
+        width: 300px;
+    }
+}
