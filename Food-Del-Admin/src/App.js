@@ -10,16 +10,16 @@ import 'react-toastify/dist/ReactToastify.css';
 import './App.css'
 
 const App = () => {
-  const URL = 'http://localhost:4000';
+  const URL = 'https://mern-food-del-5h6c.onrender.com';
 
   return (
     <div className='App'>
       <ToastContainer autoClose={3000} />
       <Navbar />
       <hr />
-      <div className="app-content" style={{ display: 'flex' }}>
+      <div className="app-content">
         <Sidebar />
-        <div className="page-content" style={{ flex: 1 }}>
+        <div className="page-content" >
           <Routes>
             <Route path='/add' element={<Add URL={URL} />} />
             <Route path='/list' element={<List URL={URL} />} />
